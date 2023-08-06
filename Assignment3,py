@@ -1,0 +1,26 @@
+# Challenge 3: Implement the Complete Student Class.
+
+class Student:
+    __name = "Sachin"
+    __RollNumber = 520452
+
+    def Setname(self,name):
+        self.__name = name
+
+    def getname(self):
+        return self.__name
+
+    def SetRollNumber(self,RollNumber):
+        self.__RollNumber = RollNumber
+
+    def getRollNumber(self):
+        return self.__RollNumber
+
+    def Student_details(self):
+        print("Student name is",Student.__name)
+        print("Student Rollnumber is",Student.__RollNumber)
+        return ""
+
+x = Student()
+print(x.Student_details())                 
+
